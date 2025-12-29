@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 function ExemploUseEffect() {
   const [contador, setContador] = useState(0);
-  // Executr algo,baseado em algo
+  // Executa algo,baseado em algo
   // O useEffect será executado após cada renderização completada
   useEffect(() => {
     document.title = `Você clicou ${contador} vezes`;
