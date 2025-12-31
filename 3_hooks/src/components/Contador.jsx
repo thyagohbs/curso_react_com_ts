@@ -20,6 +20,9 @@ function reducer(estado, acao) {
 // Componente que usa useReducer para gerenciar o estado
 function Contador() {
   // Inicializa o useReducer com a função reducer e o estado inicial
+  // dispatch = responsavel em executar/mandar a/para função
+  // useReducer(função modificadora,valor inicial do componente)
+  
   const [estado, dispatch] = useReducer(reducer, estadoInicial);
 
   return (
